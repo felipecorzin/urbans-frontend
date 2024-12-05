@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  footer {
+    min-height: 400px;
+  }
+  .seccion-oscura {
+    color: var(--color-light);
+    background-color: var(--color-medium) !important;
+  }
+
+}

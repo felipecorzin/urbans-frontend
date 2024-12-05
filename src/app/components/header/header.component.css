@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  .header {
+    background-color: var(--color-tertiary) !important;
+  }
+
+  .myLogo {
+    display: flex;
+  }
+
+  .logo {
+    width: 350px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: var(--font-principal) !important;
+  }
+}
