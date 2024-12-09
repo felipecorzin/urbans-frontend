@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&display=swap');
 
 :root {
-  --font-principal: "Roboto" sans-serif;
+  --font-primary: "Kaushan Script", cursive;
+  --font-secondary: "Roboto", sans-serif;
+  --font-text: "Inter", sans-serif;
   --color-primary: #158A47;
   --color-secondary: #3CA768;
   --color-tertiary: #5BBC95;
   --color-yellow: #f1e637;
+  --color-blue: #10ADAD;
   --color-medium: #999999;
   --color-black: #000000;
   --color-light: #ffffff;
+}
+
+hr {
+  margin: 0px !important;
+  color: var(--color-black) !important;
+  border-top: 2px solid #000 !important;
+  border-bottom: 2px solid #000 !important;
+  opacity: 1;
 }

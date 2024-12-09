@@ -9,13 +9,17 @@
   }
 
   .logo {
-    width: 350px;
+    width: 325px;
     height: 100px;
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
-    font-family: var(--font-principal) !important;
+    font-family: var(--font-primary) !important;
+  }
+
+  .avatar {
+    border-radius: 50%;
   }
 }

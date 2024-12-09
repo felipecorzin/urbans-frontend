@@ -3,9 +3,44 @@
   footer {
     min-height: 400px;
   }
+
   .seccion-oscura {
     color: var(--color-light);
     background-color: var(--color-medium) !important;
+  }
+
+  .container {
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: var(--font-primary) !important;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 5px solid var(--color-primary) !important;
+    border-bottom: 5px solid var(--color-primary) !important;
+  }
+
+  .col img{
+    width: 350px;
+    height: 400px;
+  }
+
+  .derechos {
+    margin-top: 30px;
+  }
+
+  .derechos-de-autor {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: var( --font-secondary) !important;
+    color: var(--color-light) !important;
+    display: flex;
+    justify-content: center;
   }
 
 }
