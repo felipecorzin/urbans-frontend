@@ -1,3 +1,19 @@
 :host {
   display: block;
+  .card-title {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: var(--font-primary) !important;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .card-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--font-text) !important;
+    text-align: left;
+    line-height: 2;
+  }
 }

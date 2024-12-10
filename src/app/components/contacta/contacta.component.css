@@ -13,7 +13,7 @@
 
   .contacto .rectangulo {
     margin-top: -1rem;
-    background-color: rgb(13, 110, 253);
+    background-color: var(--color-blue) !important;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
     display: flex;
@@ -27,8 +27,18 @@
     align-items: center;
   }
 
+  .seccion-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px 0;
+    font-family: var(--font-text) !important;
+  }
+
   .contacto .descripcion {
     color: white;
     font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--font-text) !important;
+    text-align: center;
   }
 }
