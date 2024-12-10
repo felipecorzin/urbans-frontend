@@ -3,9 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&display=swap');
 
 :root {
+  /* FUENTES */
   --font-primary: "Kaushan Script", cursive;
   --font-secondary: "Roboto", sans-serif;
   --font-text: "Inter", sans-serif;
+
+  /* COLORES */
   --color-primary: #158A47;
   --color-secondary: #3CA768;
   --color-tertiary: #5BBC95;
@@ -14,6 +17,10 @@
   --color-medium: #999999;
   --color-black: #000000;
   --color-light: #ffffff;
+}
+
+.spacer {
+  flex: 1 1 auto;
 }
 
 hr {
