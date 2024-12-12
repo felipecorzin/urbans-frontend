@@ -7,11 +7,11 @@ import { RoboticaComponent } from './pages/robotica/robotica.component';
 import { ActividadComponent } from './pages/actividad/actividad.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'djurban', component: DjurbanComponent },
   { path: 'country', component: CountryComponent },
   { path: 'robotica', component: RoboticaComponent },
   { path: 'actividades', component: ActividadesComponent },
   { path: 'actividad/:id', component: ActividadComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
