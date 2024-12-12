@@ -1,1 +1,20 @@
-<p>actividades works!</p>,
+<div class="container">
+  <h2>MES ACTIVITATS</h2>
+  <div class="row">
+    <div class="col" *ngFor="let item of actividades; let i = index;">
+      <div class="card" >
+        <img [src]="item .img" class="card-img-top" [alt]="item.title">
+        <div class="card-body">
+          <h5 class="card-title"> {{ item.title }} </h5>
+          <p class="card-text"> {{ item.desc_1 }} </p>
+          <button
+            type="button"
+            (click)="seeMinion(i)"
+            class="btn btn-outline-warning btn-block">
+            Ver más info
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

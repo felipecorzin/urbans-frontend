@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: var(--font-primary) !important;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--font-text) !important;
+    text-align: left;
+    line-height: 1.7;
+  }
+}

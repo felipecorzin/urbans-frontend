@@ -4,21 +4,23 @@
     background-color: var(--color-tertiary) !important;
   }
 
-  .myLogo {
-    display: flex;
-  }
-
   .logo {
     width: 325px;
     height: 100px;
   }
 
+  a {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: var(--font-primary) !important;
+  }
+  /*
   h1 {
     font-size: 3em;
     font-weight: bold;
     font-family: var(--font-primary) !important;
   }
-
+  */
   .avatar {
     border-radius: 50%;
   }
